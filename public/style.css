@@ -1,0 +1,4 @@
+.photos-summary-body {
+  display: flex;
+  align-content: space-between;
+}

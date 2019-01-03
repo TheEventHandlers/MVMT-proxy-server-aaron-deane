@@ -4,11 +4,20 @@
         <meta charset="UTF-8">
         <title>MVMT-Proxy-Aaron-Deane</title>
         <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-      <div id="photos-app"></div>
+      <div class="photos-summary-body">
+        <div id="Photos"></div>
+        <div id="Summary"></div>
+      </div>      
+      <div id="Details"></div>
+      <div id="Reviews"></div>
       <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
       <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
       <script src="http://localhost:3001/watches/:wid/bundle.js"></script>
+      <script src="http://localhost:3002/watches/:wid/bundle.js"></script>
+      <script src="http://localhost:3003/watches/:wid/bundle.js"></script>
+      <script src="http://localhost:3004/watches/:wid/bundle.js"></script>
     </body>
 </html>
