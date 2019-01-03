@@ -1,4 +1,16 @@
+.header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  z-index: 10000;
+  margin-top: -10px;
+}
+
 .photos-summary-body {
   display: flex;
-  align-content: space-between;
+  align-content: space-around;
 }
