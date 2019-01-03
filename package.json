@@ -1,17 +1,23 @@
 {
-  "name": "",
+  "name": "MVMT-proxy-server-aaron-deane",
   "version": "",
   "description": "",
-  "author": "",
+  "author": "Aaron Deane",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon ./server.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "http-proxy-middleware": "^0.19.1"
   }
 }
