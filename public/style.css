@@ -1,27 +1,82 @@
-.header {
-  position: fixed;
-  display: block;
-  width: 100%;
+/* ------------------------------- NAV BAR ------------------------------- */
+#nav-bar {
   background-color: black;
-  text-align: center;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  z-index: 10000;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  z-index: 9999;
   margin-top: -10px;
-  margin-left: -10px;
-  margin-right: 10px;
+  margin-left: -8px;
+  font-family: 'Questrial', sans-serif;
+  font-variant: small-caps;
+  color: white;
 }
 
-.photos-summary {
+#nav-bar-text-left-container {
+  margin-top: -25px;
+  margin-left: 50px;
+}
+
+.nav-bar-text {
+  padding: 0 25px;
+  transition: color .5s;
+}
+
+.nav-bar-text:hover {
+  cursor: pointer;
+  color: #A40000;
+}
+
+#nav-bar-main {
+  font-size: 30px;
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+#nav-bar-text-right-container {
+  margin-top: -15px;
+  margin-right: 50px;
+  float: right;
+}
+
+/* ------------------------------- SEPARATOR BAR ------------------------------- */
+#separator-bar {
+  margin-top: 50px;
+  height: 30px;
+  width: 100%;
+  font-family: 'Questrial', sans-serif;
+  font-variant: small-caps;
+  border-bottom: 1px solid #cbcbcb;
+
+}
+
+.separator-bar-text {
+  padding: 0 50px;
+}
+
+#separator-bar-text-container {
+  margin-left: 10%;
+}
+
+/* ------------------------------- COMPONENTS ------------------------------- */
+#photos-summary-container {
   display: flex;
-  align-content: space-around;
+  align-content: space-between;
+  margin: 0 auto;
 }
 
 #Photos {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 #Summary {
   margin-top: 30px;
+}
+
+#Details {
+  margin-top: 20px;
+}
+
+#Reviews {
+  margin-top: 70px;
 }
